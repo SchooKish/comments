@@ -28,6 +28,7 @@ export default {
     baseURL: 'https://jsonplaceholder.typicode.com'
   },
   router: {
+    base: '/comments/',
     extendRoutes(routes, resolve) {
       routes.push({
         path: '/coms',
